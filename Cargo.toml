@@ -1,6 +1,8 @@
 [workspace]
 members = ["crates/lynx-core", "crates/lynx-proxy/src-tauri", "crates/lynx-cli"]
 resolver = "2"
+publish_allow_dirty = true
+
 
 [workspace.package]
 version = "0.0.2-alpha.1"
